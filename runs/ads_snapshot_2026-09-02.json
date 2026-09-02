@@ -1,6 +1,6 @@
 {
   "run_date": "2026-09-02",
-  "fetched_at": "2026-09-02T08:52:30",
+  "fetched_at": "2026-09-02T09:11:38",
   "new_cutoff": "2024-09-02",
   "academic_years": [
     "2024-2025",
@@ -9077,5 +9077,6 @@
       "offers_prelim": "Yes"
     }
   },
-  "errors": []
+  "errors": [],
+  "fetch_ok": true
 }

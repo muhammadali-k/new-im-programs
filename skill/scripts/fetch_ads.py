@@ -99,24 +99,42 @@ def token_from(html):
 PDF_EXTRACTOR = "auto"  # auto | pypdf | pdftotext
 
 
+def _import_pypdf():
+    """Import pypdf with its optional `cryptography` dependency disabled. In some sandboxes
+    `cryptography`'s Rust extension aborts with a pyo3 PanicException (a BaseException, not
+    ImportError) at import time, which would crash pypdf's import. ADS PDFs are not encrypted,
+    so pypdf never needs cryptography here."""
+    for m in ("cryptography", "cryptography.hazmat", "cryptography.hazmat.primitives"):
+        if m not in sys.modules:
+            sys.modules[m] = None  # makes `import cryptography` raise ImportError inside pypdf
+    try:
+        from pypdf import PdfReader  # type: ignore
+        return PdfReader
+    except BaseException as e:  # ImportError, PanicException, anything — treat as unavailable
+        if isinstance(e, (KeyboardInterrupt, SystemExit)):
+            raise
+        return None
+
+
 def pdf_text(pdf_bytes, pdf_path=None):
     """Return layout-preserving text. Prefer pypdf's layout mode (cleaner column gaps on
     these ADS PDFs); fall back to `pdftotext -layout` (poppler)."""
-    use_pypdf = PDF_EXTRACTOR in ("auto", "pypdf")
-    if use_pypdf:
-        try:
-            from pypdf import PdfReader  # type: ignore
+    reasons = []
+    if PDF_EXTRACTOR in ("auto", "pypdf"):
+        PdfReader = _import_pypdf()
+        if PdfReader is not None:
             import io
             reader = PdfReader(io.BytesIO(pdf_bytes))
             return "\n".join(pg.extract_text(extraction_mode="layout") for pg in reader.pages)
-        except ImportError:
-            if PDF_EXTRACTOR == "pypdf":
-                raise RuntimeError("pypdf not installed: pip install pypdf")
+        reasons.append("pypdf unavailable (pip install pypdf)")
+        if PDF_EXTRACTOR == "pypdf":
+            raise RuntimeError(reasons[0])
     if shutil.which("pdftotext"):
         p = subprocess.run(["pdftotext", "-layout", "-", "-"], input=pdf_bytes,
                            capture_output=True, check=True)
         return p.stdout.decode("utf-8", "replace")
-    raise RuntimeError("need `pip install pypdf` or `pdftotext` (poppler) to read the ADS PDFs")
+    reasons.append("pdftotext not installed (poppler-utils)")
+    raise RuntimeError("cannot read the ADS PDFs: " + "; ".join(reasons))
 
 
 def col_spans(header_line, labels):
@@ -353,10 +371,14 @@ def main():
                     snap["errors"].append(f"Report 8 AY {label}: parsed 0 rows but PDF is not the empty template")
                 snap["report8"].extend(rows)
                 snap["academic_years"].append(label)
-            except Exception as e:  # keep going with other years
-                snap["errors"].append(f"Report 8 AY {label}: {e}")
-    except Exception as e:
-        snap["errors"].append(f"Report 8 form: {e}")
+            except (KeyboardInterrupt, SystemExit):
+                raise
+            except BaseException as e:  # keep going with other years (pyo3 panics are BaseException)
+                snap["errors"].append(f"Report 8 AY {label}: {type(e).__name__}: {e}")
+    except (KeyboardInterrupt, SystemExit):
+        raise
+    except BaseException as e:
+        snap["errors"].append(f"Report 8 form: {type(e).__name__}: {e}")
 
     # --- Report 1: full roster with pre-accreditation rows (watchlist + enrichment)
     if not a.skip_roster:
@@ -387,8 +409,10 @@ def main():
                         "specialty": "Internal medicine", "state": r["state_abbr"],
                         "academic_year": "",
                     })
-        except Exception as e:
-            snap["errors"].append(f"Report 1: {e}")
+        except (KeyboardInterrupt, SystemExit):
+            raise
+        except BaseException as e:
+            snap["errors"].append(f"Report 1: {type(e).__name__}: {e}")
 
     # de-dup report8 by org code (a program can appear in two AY reports only if re-dated)
     seen, dedup = set(), []
@@ -399,6 +423,7 @@ def main():
         dedup.append(r)
     snap["report8"] = dedup
 
+    snap["fetch_ok"] = bool(snap["report8"]) and not any(e.startswith("Report 8") for e in snap["errors"])
     Path(a.out).write_text(json.dumps(snap, indent=2))
     n_init = sum(1 for r in snap["report8"] if r["accreditation_status"].startswith("Initial"))
     print(f"[fetch_ads] run_date={snap['run_date']} new_cutoff={snap['new_cutoff']} "
@@ -406,7 +431,7 @@ def main():
           f"watchlist={len(snap['watchlist'])} roster={len(snap['roster'])} errors={len(snap['errors'])}")
     for e in snap["errors"]:
         print("  ! " + e)
-    return 1 if (not snap["report8"] and snap["errors"]) else 0
+    return 0 if snap["fetch_ok"] else 1
 
 
 if __name__ == "__main__":

@@ -99,8 +99,9 @@ def main():
             continue
         fetched[r["org_code"]] = (r, t)
 
-    # Refuse to wipe the list on a broken fetch: if the snapshot is empty AND had errors, abort.
-    if not fetched and snap.get("errors"):
+    # Refuse to touch the list on a broken/partial fetch: Report 8 must have succeeded for every
+    # academic year (a missing year would silently "age out" real programs).
+    if not snap.get("fetch_ok", bool(fetched) and not snap.get("errors")):
         print("[update_programs] fetch produced nothing and reported errors — leaving programs.json untouched", file=sys.stderr)
         for e in snap["errors"]:
             print("  ! " + e, file=sys.stderr)

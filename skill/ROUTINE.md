@@ -47,9 +47,10 @@ Rules: accreditation facts come only from ACGME ADS via the scripts; never inven
 ## Test run 2026-09-02 (session cse_01742M2vXgYn5woJCX2EytEH)
 - **Worked:** clone, scripts, failure handling (exit 2 → `programs.json` untouched, digest says "fetch FAILED"),
   **Gmail send succeeded** (message id 1a060efc429e1c72 to kmuhammadali0224@gmail.com), push notification.
-- **Blocked (user must fix, same two items as the im-open-houses routine):**
-  1. `apps.acgme.org` refused by the cloud egress proxy ("Tunnel connection failed: 403"). Fix: claude.ai/code →
-     Environments → Default → *Network access* = **Full**. Until then every morning's e-mail will say "fetch FAILED".
+- **Blocked (same two items as the im-open-houses routine):**
+  1. `apps.acgme.org` refused by the cloud egress proxy ("Tunnel connection failed: 403"). **Fixed 2026-09-02:**
+     Default environment *Network access* set to **Full** (claude.ai/code → environment chip "Default" → gear →
+     Network access). If it ever reverts, every morning's e-mail will say "fetch FAILED".
   2. `git push` refused (403, "Claude doesn't have GitHub access to muhammadali-k/new-im-programs"). Fix: install the
      Claude GitHub App for the `muhammadali-k` account with access to this repo
      (https://github.com/apps/claude/installations/select_target) or reconnect GitHub at
