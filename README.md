@@ -46,16 +46,25 @@ as authoritative data.
 ## Files
 - `index.html` — the rendered tracker (served by GitHub Pages)
 - `programs.json` — the underlying data (schema documented in `skill/SKILL.md`)
-- `skill/` — the Claude Code skill that fetches ADS, diffs against the cache, and renders
-  the HTML. Fully reproducible.
+- `runs/` — per-day ADS snapshot, change log and e-mail digest written by the daily run
+- `skill/` — the Claude Code skill that fetches ADS, diffs against the cache, renders the
+  HTML and builds the digest. Fully reproducible.
 
 ## How it updates
-The `new-im-programs` Claude Code skill runs (on a daily schedule) to:
-1. Fetch the apply-now set from ADS Report 8 across the academic years overlapping the last
-   24 months, and the pre-accreditation watchlist from Report 1.
-2. Diff against `programs.json` (preserving `first_seen`), flagging new and status-changed
-   programs and anything that aged out.
-3. Re-render `index.html` and publish to this repo (see `skill/scripts/publish.sh`).
+A Claude Code **cloud routine** runs `skill/scripts/daily_run.sh` in this repo **every day at
+8 AM America/Phoenix** (config and prompt: `skill/ROUTINE.md`):
+1. `fetch_ads.py` fetches ADS Report 8 for every academic year overlapping the last 24 months
+   plus Report 1 with pre-accreditation rows — a handful of throttled report requests, parsed
+   from the returned PDFs (no crawling).
+2. `update_programs.py` diffs against `programs.json` (preserving `first_seen` and visa labels),
+   flagging new, changed, aged-out and withdrawn programs, and fills city/phone/coordinator
+   e-mail from Report 1.
+3. `render_html.py` re-renders the tracker; `digest.py` writes `runs/digest_<date>.*`.
+4. The routine **e-mails the digest** to the applicant (also on 0-new days) and pushes
+   `index.html`, `programs.json` and `runs/` here, refreshing GitHub Pages.
+
+Visa research for brand-new programs is done separately on the laptop (`/new-im-programs`,
+Step 5 of `skill/SKILL.md`); until then a new program shows `Unknown`.
 
 ## Honesty note
 "New programs are easier to match into" is presented as **practitioner consensus**, not

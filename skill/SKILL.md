@@ -11,7 +11,9 @@ description: >-
   applicant who wants to catch first-class programs early (they cast a wider net
   and are more IMG-friendly). Pulls Initial-Accreditation programs (apply-now)
   plus a pre-accreditation watchlist, classifies each by newness, tracks what's
-  changed since the last run, and renders an HTML file. Do NOT use for
+  changed since the last run, and renders an HTML file. A cloud routine runs the
+  headless version every day at 8 AM (America/Phoenix) and e-mails the digest to
+  kmuhammadali0224@gmail.com (config in ROUTINE.md). Do NOT use for
   established-program comparison, non-IM specialties, or general residency advice.
 ---
 
@@ -47,6 +49,17 @@ the CAPTCHA naturally if it turns on. Do **not** write a bulk `curl`/`requests` 
 All ADS endpoints, the Internal Medicine specialty codes, the exact fields to extract, and
 the tier/date logic are in **`references/acgme-ads.md` — read it before fetching.**
 
+## Two ways to run it
+| Mode | When | What |
+|---|---|---|
+| **Daily 8 AM e-mail** (cloud routine, automatic) | every day 08:00 America/Phoenix | `scripts/daily_run.sh` — headless ADS report fetch → diff → render → digest → **e-mail to kmuhammadali0224@gmail.com** → push to the tracker repo. Config + prompt in `ROUTINE.md`. |
+| **Full local run** (`/new-im-programs`) | on request, or when the e-mail reports new programs | the Workflow below: browser-assisted enrichment + **visa research** (Step 5) for anything still `Unknown`, then render + publish. |
+
+The daily run uses `scripts/fetch_ads.py`, which POSTs the same two report forms a person would
+(Report 8 per academic year + Report 1) and parses the returned PDFs — about seven throttled
+requests, no crawling, no detail-page scraping. It is what keeps the tracker and the e-mail current;
+the local workflow is what adds visa labels and detail-page enrichment. Both share `programs.json`.
+
 ## Workflow
 
 1. **Set the run date and windows.** Today's date anchors everything. Compute:
@@ -54,7 +67,9 @@ the tier/date logic are in **`references/acgme-ads.md` — read it before fetchi
    - `first_class_cutoff = today − 12 months` (on/after this = likely still filling first class)
    These re-anchor automatically every run, so the skill stays correct across cycles.
 
-2. **Fetch the apply-now set (Report 8).** These reports return a **PDF**, not an HTML table —
+2. **Fetch the apply-now set (Report 8).** Shortcut: `python3 scripts/fetch_ads.py --out snap.json`
+   does Steps 2–3 headlessly (then `scripts/update_programs.py snap.json programs.json --run-date <today>`
+   does Step 7) — use the browser route below only if the headless fetch errors. These reports return a **PDF**, not an HTML table —
    read `references/acgme-ads.md` §"Report mechanics" first; it's the step naive runs get wrong.
    In the browser open ADS **Report 8**, set **Specialty = Internal medicine** via the Select2
    dropdown (setting the raw select submits empty), pick an **Academic Year**, submit, and parse
@@ -124,6 +139,38 @@ the tier/date logic are in **`references/acgme-ads.md` — read it before fetchi
    skill into `skill/`, then commits and pushes **only if something changed** (no-op on a
    quiet day). If the clone is missing it prints the `gh repo clone` command to recreate it.
    On a scheduled/no-change run this is a safe no-op — still run it so the site stays live.
+
+## Daily 8 AM e-mail (cloud routine)
+A cloud routine ("New IM programs — daily 8 AM e-mail", `0 15 * * *` UTC = 08:00 America/Phoenix,
+model `claude-opus-4-8`, Gmail connector, repo `muhammadali-k/new-im-programs`) runs
+`scripts/daily_run.sh` every morning and e-mails the digest to **kmuhammadali0224@gmail.com** —
+also on days with **0 new** (a one-liner plus tracker counts, so silence never means "broken").
+Exact configuration and the verbatim prompt are in **`ROUTINE.md`**; re-create from there if deleted.
+
+What the e-mail contains: every program newly accredited since the previous run (name, city/state,
+accreditation date + tier, PD, coordinator contact from ADS, ADS detail link, visa = `Unknown` until
+researched), status/PD/tier changes, programs that aged out or were withdrawn, and the tracker
+counts. When it reports new programs, run `/new-im-programs` locally to research their visa
+sponsorship (Step 5) — the labels persist through later routine runs.
+
+Run the same pipeline locally at any time:
+```bash
+bash ~/.claude/skills/new-im-programs/scripts/daily_run.sh          # → Dropbox output folder + runs/digest_<date>.*
+bash ~/.claude/skills/new-im-programs/scripts/publish.sh            # → GitHub Pages
+```
+`daily_run.sh` exits 2 (and leaves `programs.json` untouched) if ADS could not be fetched; the digest
+then says the run failed rather than reporting a suspicious "0 programs".
+
+## Scripts
+| Script | Role |
+|---|---|
+| `fetch_ads.py` | Headless ADS fetch (Report 8 × academic years + Report 1) → `ads_snapshot_<date>.json`. Needs `pypdf` (preferred) or `pdftotext`. |
+| `update_programs.py` | Merge snapshot into `programs.json`; re-tier; preserve visa/enrichment; write `changes_<date>.json`. |
+| `render_html.py` | `programs.json` → sortable/filterable tracker HTML grouped by visa. |
+| `digest.py` | `changes_<date>.json` → e-mail digest (`.html`, `.txt`, `.subject`). |
+| `daily_run.sh` | fetch → update → render → digest, in one command (used by the routine and locally). |
+| `merge_visa.py` | Merge Workflow visa-research results into `programs.json` (local Step 5). |
+| `publish.sh` | Copy tracker + data + skill into the GitHub Pages repo and push (local). |
 
 ## programs.json schema
 ```json

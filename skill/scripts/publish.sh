@@ -19,6 +19,8 @@ fi
 # Sync tracker (as index.html for Pages), data, and the skill source.
 cp "$OUT/new-im-programs.html" "$REPO/index.html"
 cp "$OUT/programs.json"        "$REPO/programs.json"
+cp "$OUT/new-im-programs.html" "$REPO/new-im-programs.html"
+[ -d "$OUT/runs" ] && rsync -a --exclude '*.pdf' "$OUT/runs/" "$REPO/runs/"
 rsync -a --delete --exclude '__pycache__' "$SKILL/" "$REPO/skill/"
 
 cd "$REPO"
