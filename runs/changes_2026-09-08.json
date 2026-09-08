@@ -1,0 +1,196 @@
+{
+  "run_date": "2026-09-08",
+  "previous_run_date": "2026-09-03",
+  "new_cutoff": "2024-09-08",
+  "first_class_cutoff": "2025-09-08",
+  "academic_years": [
+    "2024-2025",
+    "2025-2026",
+    "2026-2027",
+    "2027-2028"
+  ],
+  "fetch_errors": [],
+  "new": [],
+  "removed": [
+    {
+      "org_code": "1405500001",
+      "program_name": "West Virginia University School of Medicine/Berkeley Medical Center Program",
+      "state": "West Virginia",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1400300006",
+      "program_name": "University of Arizona College of Medicine - Phoenix/Banner Desert Program",
+      "state": "Arizona",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1400300007",
+      "program_name": "University of Arizona College of Medicine - Phoenix/Banner Del Webb Program",
+      "state": "Arizona",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1404200002",
+      "program_name": "Universidad Central del Caribe School of Medicine (Cayetano Coll & Toste Hospital) Program",
+      "state": "Puerto Rico",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1400500014",
+      "program_name": "Southwest Healthcare Medical Education Consortium Program",
+      "state": "California",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1402800002",
+      "program_name": "Prime South GME Consortium/St. Joseph Medical Center Program",
+      "state": "Missouri",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1404100002",
+      "program_name": "Philadelphia College of Osteopathic Medicine/Redeemer Health System Program",
+      "state": "Pennsylvania",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "no longer listed on ADS Report 1 (withdrawn / closed?)"
+    },
+    {
+      "org_code": "1400500017",
+      "program_name": "OPTI West/San Antonio Regional Hospital Program",
+      "state": "California",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1403800003",
+      "program_name": "Mercy Health Fairfield Hospital Program",
+      "state": "Ohio",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1403800004",
+      "program_name": "Mercy Health - Anderson Hospital Program",
+      "state": "Ohio",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1404500003",
+      "program_name": "Medical University of South Carolina Regional Network (Lancaster) Program",
+      "state": "South Carolina",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1403800001",
+      "program_name": "Marshall Community Health Consortium Program",
+      "state": "West Virginia",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1403600002",
+      "program_name": "Iredell Health System Program",
+      "state": "North Carolina",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1403300003",
+      "program_name": "Holy Name Medical Center Program",
+      "state": "New Jersey",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1400100002",
+      "program_name": "Health Education Services/Flowers Hospital Program",
+      "state": "Alabama",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1400500016",
+      "program_name": "Desert Regional Medical Center Program",
+      "state": "California",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1404200001",
+      "program_name": "Centro Medico Menonita Cayey Program",
+      "state": "Puerto Rico",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1401100015",
+      "program_name": "BayCare Health System - Mease Countryside Hospital Program",
+      "state": "Florida",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1401100014",
+      "program_name": "BayCare Health System (Morton Plant North Bay Hospital) Program",
+      "state": "Florida",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1400500018",
+      "program_name": "Adventist Health Central California Network (Bakersfield) Program",
+      "state": "California",
+      "original_accreditation_date": "2024-09-06",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "total": 44,
+    "tiers": {
+      "apply-now-first-class": 21,
+      "apply-now-still-new": 23,
+      "watchlist-preaccreditation": 0
+    },
+    "visa": {
+      "J-1": 23,
+      "Unknown": 11,
+      "J-1+H-1B": 3,
+      "None": 7
+    },
+    "new": 0,
+    "removed": 20,
+    "changed": 0
+  },
+  "roster_size": 702,
+  "first_run": false
+}
