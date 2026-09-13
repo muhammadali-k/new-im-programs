@@ -1,0 +1,22 @@
+Newly accredited Internal Medicine programs — 2026-09-13
+Source: ACGME ADS (AYs 2024-2025, 2025-2026, 2026-2027, 2027-2028). Previous run: 2026-09-12.
+Live tracker: https://muhammadali-k.github.io/new-im-programs/
+
+No new IM programs since the last check.
+
+13 changed:
+- University of California (Irvine)/Irvine Medical Center Program (California): tier apply-now-first-class -> apply-now-still-new
+- Health Education Services/Physicians Regional Medical Center - Pine Ridge Program (Florida): tier apply-now-first-class -> apply-now-still-new
+- University of Central Florida/HCA Florida Healthcare Program (Florida): tier apply-now-first-class -> apply-now-still-new
+- Coffee Regional Medical Center Program (Georgia): tier apply-now-first-class -> apply-now-still-new
+- Tift Regional Health System Program (Georgia): tier apply-now-first-class -> apply-now-still-new
+- New Mexico Primary Care Training Consortium Program (New Mexico): tier apply-now-first-class -> apply-now-still-new
+- Lexington Health Program (South Carolina): tier apply-now-first-class -> apply-now-still-new
+- University of Tennessee College of Medicine/Maury Regional Medical Center Program (Tennessee): tier apply-now-first-class -> apply-now-still-new
+- Vanderbilt University Medical Center (Lebanon) Program (Tennessee): tier apply-now-first-class -> apply-now-still-new
+- Sentara Health Program (Virginia): tier apply-now-first-class -> apply-now-still-new
+- Valley Health System Program (Virginia): tier apply-now-first-class -> apply-now-still-new
+- MultiCare Health System Program (Washington): tier apply-now-first-class -> apply-now-still-new
+- Medical College of Wisconsin Affiliated Hospitals, Inc/ThedaCare Regional Medical Center - Neenah Program (Wisconsin): tier apply-now-first-class -> apply-now-still-new
+
+Tracked: 44 | first class 8 | still new 36 | watchlist 0 | confirmed visa sponsors 26 | unknown 11 | none 7

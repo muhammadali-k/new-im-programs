@@ -1,0 +1,192 @@
+{
+  "run_date": "2026-09-13",
+  "previous_run_date": "2026-09-12",
+  "new_cutoff": "2024-09-13",
+  "first_class_cutoff": "2025-09-13",
+  "academic_years": [
+    "2024-2025",
+    "2025-2026",
+    "2026-2027",
+    "2027-2028"
+  ],
+  "fetch_errors": [],
+  "new": [],
+  "removed": [],
+  "changed": [
+    {
+      "org_code": "1400500023",
+      "program_name": "University of California (Irvine)/Irvine Medical Center Program",
+      "state": "California",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401100019",
+      "program_name": "Health Education Services/Physicians Regional Medical Center - Pine Ridge Program",
+      "state": "Florida",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401100021",
+      "program_name": "University of Central Florida/HCA Florida Healthcare Program",
+      "state": "Florida",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401200007",
+      "program_name": "Coffee Regional Medical Center Program",
+      "state": "Georgia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401200008",
+      "program_name": "Tift Regional Health System Program",
+      "state": "Georgia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1403400003",
+      "program_name": "New Mexico Primary Care Training Consortium Program",
+      "state": "New Mexico",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1404500008",
+      "program_name": "Lexington Health Program",
+      "state": "South Carolina",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1404700005",
+      "program_name": "University of Tennessee College of Medicine/Maury Regional Medical Center Program",
+      "state": "Tennessee",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1404700006",
+      "program_name": "Vanderbilt University Medical Center (Lebanon) Program",
+      "state": "Tennessee",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405100004",
+      "program_name": "Sentara Health Program",
+      "state": "Virginia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405100007",
+      "program_name": "Valley Health System Program",
+      "state": "Virginia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405400002",
+      "program_name": "MultiCare Health System Program",
+      "state": "Washington",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405600003",
+      "program_name": "Medical College of Wisconsin Affiliated Hospitals, Inc/ThedaCare Regional Medical Center - Neenah Program",
+      "state": "Wisconsin",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "total": 44,
+    "tiers": {
+      "apply-now-first-class": 8,
+      "apply-now-still-new": 36,
+      "watchlist-preaccreditation": 0
+    },
+    "visa": {
+      "J-1": 23,
+      "Unknown": 11,
+      "J-1+H-1B": 3,
+      "None": 7
+    },
+    "new": 0,
+    "removed": 0,
+    "changed": 13
+  },
+  "roster_size": 702,
+  "first_run": false
+}
