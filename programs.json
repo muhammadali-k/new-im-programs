@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-17",
-  "run_date": "2026-09-17",
+  "generated": "2026-09-18",
+  "run_date": "2026-09-18",
   "source": "ACGME ADS (apps.acgme.org)",
   "specialty": "Internal Medicine (categorical)",
-  "new_cutoff": "2024-09-17",
-  "first_class_cutoff": "2025-09-17",
-  "previous_run_date": "2026-09-16",
+  "new_cutoff": "2024-09-18",
+  "first_class_cutoff": "2025-09-18",
+  "previous_run_date": "2026-09-17",
   "academic_years": [
     "2024-2025",
     "2025-2026",
@@ -46,7 +46,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403800002",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Org 1403800002 is the Western Reserve Health Education, Inc. IM Rural Track (Sharon, PA), confirmed via FREIDA (Sharon, PA). The WRHE IM page references an application-requirements PDF that could not be read; the verbatim J-1 statement is from WRHE's Family Medicine program page (same sponsoring institution, WRHE, which uses shared application criteria across programs). ECFMG certification required if applicable; H-1B not mentioned. IMPORTANT: do NOT conflate with 'Western Reserve Hospital' in Cuyahoga Falls, OH (a different institution) whose criteria page lists different visa terms. Confidence medium because the quote is from a WRHE sibling program page, not the IM rural track's own eligibility text. => J-1.",
       "offers_prelim": "No"
@@ -89,7 +89,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404800011",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Official HCA Healthcare GME page for the St. David's (Medical Center) Internal Medicine Residency in Austin, TX. Accepts a limited number of J-1 applicants; explicitly does NOT sponsor/accept H-1B. Classified J-1 (H-1B explicitly not offered). Caveat: the HCA GME page does not display the ACGME ID, so the match to org 1404800011 is by institution (St. David's HealthCare/HCA) + specialty (IM) + location (Austin); St. David's IM training in Austin is centered at St. David's Medical Center.",
       "offers_prelim": "No"
@@ -127,7 +127,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402100004",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Quote is from Ochsner Health's institution-wide GME eligibility page, which explicitly applies to 'any of Ochsner Health's residency and fellowship programs' and requires ECFMG certification plus Louisiana licensure eligibility. H-1B is not mentioned. The OLGMC/Lafayette-region landing page (education.ochsner.org/olgmc/) does not restate visa policy, so this relies on the Ochsner-wide eligibility policy governing all its Louisiana programs. => J-1.",
       "offers_prelim": "No"
@@ -159,7 +159,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402800005",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Brand-new program announced June 2026, launching summer 2027; no program-specific eligibility or visa page published yet. No explicit visa statement for THIS program could be found. Broader Mercy (mercy.net) IM programs at other locations (e.g., St. Louis, Fort Smith) reportedly sponsor H-1 and consider J-1 on an individual basis, but Mercy states sponsorship policies vary by location, so this is not determinative for Springfield; historical Springfield IMG representation is ~0%. Do NOT confuse mercy.net (Mercy, Missouri) with Mercyhealth/mercyhealthsystem.org (a separate WI/IL system). => Unknown (contact program coordinator; policy still in development).",
       "offers_prelim": "Yes"
@@ -197,7 +197,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401200009",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "This is the St. Joseph's/Candler IM residency (Savannah, GA), developed in partnership with the Medical College of Georgia; first class starts July 1, 2027. The program's own residency pages carry NO visa/eligibility policy yet. NOTE: search results describing 'J-1 only' pertain to the SEPARATE, established MCG Augusta program (org 1401221107), NOT this new Savannah program, so no inference is made. Nothing explicit found for this program -> Unknown.",
       "offers_prelim": "No"
@@ -235,7 +235,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403500008",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "This is a brand-new IM program at St. Catherine of Siena (Smithtown, NY) under Catholic Health Long Island's Good Samaritan/St. Catherine GME; no IM-specific eligibility page was found (the IM residency page URL returns 404). The J-1 quote is an institution-wide statement ('Our institution will support a J-1 visa') from the same GME's General Surgery residency page; the Psychiatry program similarly supports J-1. H-1B is not mentioned. Confidence is medium because the quote is from a sibling program's page rather than the IM program's own statement. Org 1403500008 decodes to ACGME state 35 = New York (a FREIDA fetch mislabeled it 'Bradenton, FL' due to truncated content). => J-1.",
       "offers_prelim": "No"
@@ -278,7 +278,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404800021",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Carrollton Regional Medical Center's own 'Prospective Residents' page explicitly sponsors J-1 through ECFMG and explicitly does NOT sponsor H-1B. Clear J-1 (H-1B not offered).",
       "offers_prelim": "No"
@@ -321,7 +321,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401200010",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program's own page states applicants must be U.S. citizens, hold a valid Permanent Resident Card/EAD, or hold a J-1 visa sponsored by ECFMG, and that 'Wellstar does not sponsor visas.' J-1 is ECFMG-sponsored (not employer-sponsored), so it is accepted; H-1B (which requires employer sponsorship) is effectively not offered. => J-1.",
       "offers_prelim": "No"
@@ -359,7 +359,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404700006",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "This is the Vanderbilt Wilson County Primary Care Internal Medicine Residency (Lebanon/Wilson County, TN), the VUMC (Lebanon) program matching org 1404700006. Official VUMC page states J-1 sponsorship; H-1B is not mentioned anywhere on the page, so classified J-1 (not J-1+H-1B). IMGs directed to ECFMG.",
       "offers_prelim": "No Preliminary Positions"
@@ -391,7 +391,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1405100007",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Brand-new program (accredited 2025-09-12; first class Summer 2026). The official Valley Health (Winchester VA) residency site (valleyhealthlink.com) returned HTTP 403 to WebFetch and could not be opened. FREIDA program 1405100007 is JS-rendered and returned no usable visa field; the NRMP program directory page has no visa statement. IMPORTANT: a web-search summary claimed this program 'requires US citizen or permanent resident and does not sponsor any visas', but that summary conflated Winchester VA with unrelated same/similarly-named entities (Valley Health System of Las Vegas = valleyhealthsystemlv.com/valleyhospital.net, and Valley Health of Ridgewood NJ = valleyhealth.com). No Winchester-VA-specific source supports any visa statement, so defaulting to Unknown rather than assign the high-stakes 'None'. Program contact: IMResidency@valleyhealthlink.com / (540) 536-4490.",
       "offers_prelim": "No"
@@ -429,7 +429,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404700005",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "No Maury-specific visa statement found. The Maury Regional site (mauryregional.com) returned HTTP 403 to automated fetch, so its own IM residency/careers pages could not be read. The only UTHSC visa policy located (the quote above) is stated on the UTHSC Internal Medicine application page and, per that page, applies to the MEMPHIS program (ACGME 1404721412) ONLY, not the new UTHSC-Maury campus in Columbia, TN. That Memphis-only policy is NOT imported here. Default Unknown. (Note: if the Memphis policy were ever confirmed to extend to Maury, it would read as H-1B-only excluded and J-1 not routine, i.e. near 'None' — but there is no source tying it to Maury.)",
       "offers_prelim": "No"
@@ -477,7 +477,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401100021",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Org 1401100021 is the 'University of Central Florida/HCA Florida Healthcare Program' in Tallahassee, FL (per FREIDA), i.e. HCA Florida Capital Hospital. Its HCA Healthcare GME IM residency FAQ states J-1 is sponsored via ECFMG and H-1B is considered case-by-case. Marked J-1+H-1B, but note H-1B is only 'case-by-case,' not a blanket commitment; confidence medium because H-1B is conditional and the org-code-to-facility mapping (Tallahassee = Capital Hospital) is an inference from FREIDA's location field.",
       "offers_prelim": "No"
@@ -520,7 +520,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500023",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "UCI institutional GME application/eligibility policy (applies to all UCI GME programs, including this IM program): J-1 via ECFMG required for non-US citizens, and H-1 sponsorship explicitly not offered. The IM residency applicants page itself carries no visa text; the quotes are from the UCI School of Medicine GME page. J-1 supported, H-1B/H-1 explicitly not offered -> J-1.",
       "offers_prelim": "No"
@@ -558,7 +558,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401200008",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Tift Regional Health System (Tifton, GA); program launches July 2026. The official 'Information for Applicants' PDF (extracted via pdftotext) lists ECFMG certification as a requirement for IMGs, indicating IMGs may apply, but says nothing about which visa types are sponsored. The IM program webpage likewise has no visa text. No explicit sponsorship statement found -> Unknown (do not infer J-1).",
       "offers_prelim": "Yes"
@@ -596,7 +596,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1405100004",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Sentara's own IM residency page (Woodbridge/Sentara Northern Virginia Medical Center) addresses IMG requirements but makes NO explicit visa-sponsorship statement (no J-1/H-1B mention). The NRMP program directory listing for Sentara Health-VA (2497140c0) contains no visa-sponsorship field. No explicit source found; default Unknown.",
       "offers_prelim": "Yes"
@@ -634,7 +634,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403400003",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Org 1403400003 (FREIDA lists city = Farmington, NM) is the San Juan Regional Medical Center IM Residency, one of the New Mexico Primary Care Training Consortium member programs. The program's own application page states it sponsors J-1 visas for international graduates; H-1B is not mentioned. => J-1.",
       "offers_prelim": "No"
@@ -666,7 +666,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1405400002",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Brand-new program (accredited 2025-09-12). Per MultiCare/Spokesman coverage, applications open Fall 2026 with first cohort starting Summer 2027, so an eligibility/visa page may not exist yet. The official MultiCare site (multicare.org) returned HTTP 403 to WebFetch and could not be opened; FREIDA program 1405400002 is JS-rendered and returned no usable visa field. No explicit J-1/H-1B statement found for THIS program (search results surfaced only the unrelated Spokane Teaching Health Center program). Defaulting to Unknown.",
       "offers_prelim": "No"
@@ -709,7 +709,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1405600003",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "This ThedaCare-Neenah program is part of Medical College of Wisconsin Affiliated Hospitals (MCWAH), whose institutional GME visa page accepts BOTH J-1 (ECFMG-sponsored) and H-1B. Hence J-1+H-1B. CAVEAT: H-1B is program-dependent at MCWAH ('SOME of the MCWAH residencies and fellowships are willing to pursue an H-1B'; H-1B also requires USMLE Step 3 + CS passed), and the quote is from the institution-wide page, not a ThedaCare-Neenah-specific statement, so H-1B availability for this specific new program is not guaranteed. Confidence medium for that reason. J-1 acceptance is solid.",
       "offers_prelim": "No"
@@ -747,7 +747,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404500008",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program's own 'How to Apply' page carries an explicit no-sponsorship statement (verbatim confirmed via browser page text: '** Lexington Health does not sponsor Visas.'). This is the new Lexington Health / Lexington Medical Center IM program in West Columbia, SC (first class July 1, 2026). High-stakes 'None' supported by an explicit program statement.",
       "offers_prelim": "No"
@@ -785,7 +785,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401100019",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program's own FAQ page explicitly states J-1 only. The how-to-apply page also lists 'J-1 Visa Support information' as an applicant resource and requires ECFMG certification for IMGs. No H-1B offered. (Program site returns HTTP 403 to WebFetch; content retrieved directly via curl.) J-1 supported, H-1B not offered -> J-1.",
       "offers_prelim": "No"
@@ -823,7 +823,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401200007",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program's own 'Application Instructions & Requirements' page explicitly states no visa sponsorship. Inaugural class began July 2026. Explicit statement -> None.",
       "offers_prelim": "No"
@@ -861,7 +861,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403300004",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Brand-new program (accredited 2025-07-01) under NYMC's new sponsorship of Hudson Regional Health programs. No dedicated official eligibility/how-to-apply page located; the older CarePoint 'Internal Medicine Residency at Bayonne Medical Center' page has no visa info, and FREIDA (SPA) says a visa is listed but the specific type was not retrievable via WebFetch. Only the residencyadvisor aggregator states J-1-only (no H-1B/F-1). Unverified on a program-owned page -> low confidence; confirm with program.",
       "offers_prelim": "No"
@@ -904,7 +904,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403700001",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "This batch program (org_code 1403700001, 'Univ of North Dakota School of Medicine and Health Sciences Program', acc 2025-04-25) is the NEW UND Bismarck IM program — distinct from the established UND Fargo program (1403721326). Verbatim quotes taken from the Bismarck-specific apply page. Both J-1 and H-1B are sponsored (H-1B case-by-case with a Step 3-by-March-31 condition), so J-1+H-1B. The Fargo apply page carries equivalent language, confirming the departmental policy.",
       "offers_prelim": "No"
@@ -947,7 +947,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500019",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program's OWN official GME page explicitly states no J-1 and no H-1B sponsorship, and lists minimum employment eligibility as US citizen, green card, or EAD (work permit) only. This is an explicit no-sponsorship statement -> None. Note: residents rotate to the VA (VACCHCS), which typically constrains non-citizen/non-resident employment, consistent with the stated policy. (residencyadvisor aggregator independently corroborates with an FAQ stating the program does not sponsor J-1, H-1B, or F-1, but the determination rests on the program's own site.)",
       "offers_prelim": "No"
@@ -985,7 +985,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404800019",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program's own eligibility/requirements page states J-1 (via ECFMG) is the visa pathway for IMGs. H-1B is not mentioned anywhere on the page. All international graduates must hold ECFMG certification. J-1 assigned; H-1B not offered/not mentioned.",
       "offers_prelim": "No"
@@ -1023,7 +1023,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500021",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Prime West Consortium / St. Francis Medical Center (Lynwood, CA; Prime Healthcare; program email sfmc-imrp@primehealthcare.com). Official 'Application Process' page explicitly states J-1 sponsorship; H-1B is not mentioned anywhere on the page -> 'J-1'. Verified verbatim on two WebFetch passes.",
       "offers_prelim": "Yes"
@@ -1055,7 +1055,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404800017",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "No explicit, program-specific visa statement found. This is the NEW Prime South GME Consortium (Prime Healthcare) program at Knapp Medical Center, Weslaco (sponsoring institution 480689; contact KMC-IM-GME@primehealthcare.com). IMPORTANT: do not conflate with (a) the UHS 'South Texas Health System GME Consortium' (org 1404800015, McAllen), whose site states it does not sponsor visas / US citizens or PRs only — a different sponsor; or (b) the UTRGV-sponsored 'University of Texas RGV (Knapp)' IM program (org 1404800906) — also a different sponsor at the same hospital. Neither of those policies can be attributed to 1404800017. The Knapp GME page and the southtexashealthsystem.com Prime pages (which returned HTTP 403) show no visa field; FREIDA (1404800017) is JS-rendered and unfetchable. Defaulting to Unknown; verify FREIDA visa field or contact the program.",
       "offers_prelim": "No"
@@ -1093,7 +1093,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404500007",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "McLeod IM program's own 'How to Apply' page explicitly welcomes J-1 applicants who are ECFMG certified. No mention of H-1B on the page, so classified J-1 (not J-1+H-1B). High confidence (program's own site).",
       "offers_prelim": "No"
@@ -1131,7 +1131,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500020",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "This is the BRAND-NEW 'Keck School of Medicine of USC' IM program (KSOM of USC IM Residency, ACGME 1400500020, Initial Accreditation 4/25/2025), trained across Keck Hospital of USC / Norris / Arcadia / Verdugo Hills. Its 'How to Apply > Requirements' list requires applicants to be a US citizen or permanent resident -> effectively no visa sponsorship. IMPORTANT: do NOT conflate with the separate, established 'USC/LA General' IM program (ACGME 1400521044, at LA General/LAC+USC) which sponsors J-1 only; several aggregators mix the two. Requirements text extracted from the page's hidden tab via DOM (browser).",
       "offers_prelim": "No Preliminary Positions"
@@ -1169,7 +1169,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401700003",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Indiana University School of Medicine-Bloomington. Program's own recruitment page states it only considers J-1 applicants -> J-1 (H-1B not offered/mentioned). International applicants must be ECFMG certified and complete US clinical experience; J-1 sponsored via ECFMG.",
       "offers_prelim": "No"
@@ -1217,7 +1217,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402000003",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "University of Kentucky COM (Pikeville). Same basis as the Ashland campus: no Pikeville-specific visa page found; relying on UK institution-wide GME visa policy (J-1 standard via ECFMG; H-1B only in rare/extenuating cases) and the UK Internal Medicine dept 'We support J-1 visas' statement. Classified J-1 (H-1B only a rare exception). Confidence medium because the source is institutional/department-level, not the specific Pikeville program page.",
       "offers_prelim": "No"
@@ -1265,7 +1265,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402000002",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "University of Kentucky COM (Ashland). No Ashland-campus-specific visa page found for this brand-new program. Basis is the UK institution-wide GME visa policy (J-1 standard via ECFMG; H-1B only in rare/extenuating cases) plus the UK Internal Medicine dept 'We support J-1 visas' statement. Classified J-1 because H-1B is only a rare exception, not a reliable pathway; the H-1B mention was NOT strong enough to call J-1+H-1B for a visa-needing tracker. Confidence medium because the source is institutional/department-level, not the specific Ashland program page.",
       "offers_prelim": "Yes"
@@ -1308,7 +1308,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403400002",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program page on the New Mexico Primary Care Training Consortium site (the ACGME sponsoring institution for Three Crosses IM) lists 'J-1 Visa Sponsorship' / 'Visa Sponsorship: J-1' and requires ECFMG certification. A program search summary additionally states it 'does not sponsor H1B visas.' H-1B not offered -> J-1. The hospital's own /apply and /internal-medicine URLs returned 404 during this run, but the consortium page is the official program source.",
       "offers_prelim": "No"
@@ -1351,7 +1351,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500015",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "No explicit J-1 or H-1B statement could be verified. The program's own Dignity Health page was migrated under CommonSpirit and its How-to-Apply deep link now redirects to a generic GME landing page (no visa content). FREIDA's Visas Accepted field sits in the members-only locked section, and matcharesident's visa policy is paywalled. Search-engine snippets only surfaced vague FREIDA-style boilerplate ('will consider appropriately qualified applicants with visa status; contact the program') that does not name a specific visa. Per honesty rules, no explicit quote -> Unknown. Program is new (10 first-year positions; inaugural class July 2025) and recruited from an international applicant pool, but that does not establish a specific visa policy. Recommend applicants contact the program (murali.adusumalli@commonspirit.org / 916-908-6233).",
       "offers_prelim": "No"
@@ -1389,7 +1389,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401200006",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Southeast Georgia Health System (Brunswick GA). The program's own GME page lists 'J-1 Sponsorship' explicitly under resident Benefits; H-1B is not mentioned -> J-1. The official page returns HTTP 403 to automated fetch; content was read directly in a browser. NOTE: the aggregator residencyprograms.io renders 'Visas Accepted: None', but that reflects an unpopulated FREIDA field for this brand-new program, not an explicit refusal, and is contradicted by the program's own site. Resident roster is heavily IMG. website=official GME page.",
       "offers_prelim": "No"
@@ -1427,7 +1427,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402700003",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "South Central Regional Medical Center (Laurel MS). Program's own GME FAQ page states J-1 sponsored on a case-by-case basis; H-1B not mentioned -> J-1. IMGs welcome to apply; program accepts USMLE and/or COMLEX.",
       "offers_prelim": "No Preliminary Positions"
@@ -1459,7 +1459,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402800004",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Brand-new rural IM program (fully ACGME-accredited; inaugural class July 2026, 4 residents/yr). Fetched the official IM residency landing page, program-overview page, and how-to-apply/what's-new page — NONE contain any statement about visa sponsorship, J-1/H-1B, ECFMG, or international applicants. FREIDA visa field not retrievable (SPA; an aggregator even mislabeled the location as Clearwater FL). No explicit source found, so Unknown is the correct default.",
       "offers_prelim": "No"
@@ -1497,7 +1497,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402800003",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "The program's own HCA GME page (hcahealthcaregme.com) and the FREIDA listing (a JavaScript SPA that WebFetch could not render) exposed NO visa field. Only the third-party aggregator residencyadvisor states J-1 sponsored / H-1B & F-1 not sponsored. Consistent with HCA's general community-program practice (J-1 primarily), but NOT confirmed on the program's own site — treat as unverified and confirm with the GME office.",
       "offers_prelim": "No"
@@ -1529,7 +1529,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403500006",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Callen-Lorde Community Health Center Program (New York, NY), Initial Accreditation Jan 2025, very small/new program at a community health center. No explicit visa-sponsorship statement found on any official page or reliable source after multiple searches. One aggregator listed a blank/'None' visa field, but that is an unfilled field, NOT an explicit no-sponsorship statement, so it does not support a 'None' verdict. FREIDA program page (1403500006) redirected to 404/error and would not render a Visas-Accepted field. Correct honest default = Unknown; applicant should contact program coordinator (Yvette Dingwall, 212-271-7263) to confirm."
     },
@@ -1566,7 +1566,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404500004",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Program's own 'How to Apply' page explicitly states it cannot sponsor H-1B, J-1, or any visa at this time (may re-evaluate in future). Clear no-sponsorship statement -> None. High confidence (program's own site).",
       "offers_prelim": "No"
@@ -1604,7 +1604,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401100017",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "BayCare Health System's official IM residency applicant-criteria page states a system-wide GME policy that BayCare residency programs will not consider applications requiring J-1 or H-1B sponsorship. This blanket statement covers all BayCare Health System IM programs, including this St. Anthony's Hospital site -> None. ECFMG certificate accepted 'if applicable' (already work-authorized IMGs may apply), but no visa sponsorship offered. 'Initially' signals possible future change; re-verify each cycle.",
       "offers_prelim": "No"
@@ -1642,7 +1642,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401100016",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "BayCare Health System's official IM residency applicant-criteria page states a system-wide GME policy that BayCare residency programs will not consider applications requiring J-1 or H-1B sponsorship. This blanket statement covers all BayCare Health System IM programs, including this St. Joseph's Hospital-South site -> None. ECFMG certificate accepted 'if applicable' (already work-authorized IMGs may apply), but no visa sponsorship offered. 'Initially' signals possible future change; re-verify each cycle.",
       "offers_prelim": "No"
@@ -1680,7 +1680,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1405600001",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "The program's own Ascension Wisconsin IM page confirms it is the Milwaukee-based IM residency (training at Ascension Columbia St. Mary's and Ascension St. Joseph Hospital) but did not carry a direct visa statement on the fetched page; the Wisconsin 'how to apply' subpage URL returned 404. Primary evidence is residencyadvisor (aggregator mirroring FREIDA's 'J1' field), whose FAQ states J-1 only, no H-1B/F-1. Consistent with the broader Ascension IM GME policy that international applicants receive work authorization through a J-1 visa sponsored by ECFMG. Assigned J-1 at medium confidence (aggregator/FREIDA-derived, not program's own written statement).",
       "offers_prelim": "No"
@@ -1723,7 +1723,7 @@
       "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401700001",
       "history_url": "",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "is_new_since_last_run": false,
       "visa_notes": "Ascension St. Vincent (Evansville). Official 'How to Apply' page: J-1 sponsored through ECFMG, and H-1B explicitly NOT sponsored. Per the rules this is J-1 (J-1 supported; H-1B explicitly not offered). An EAD is also accepted as an alternative work-authorization pathway.",
       "offers_prelim": "No"
