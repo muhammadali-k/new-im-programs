@@ -1,0 +1,35 @@
+{
+  "run_date": "2026-09-25",
+  "previous_run_date": "2026-09-24",
+  "new_cutoff": "2024-09-25",
+  "first_class_cutoff": "2025-09-25",
+  "academic_years": [
+    "2024-2025",
+    "2025-2026",
+    "2026-2027",
+    "2027-2028"
+  ],
+  "fetch_errors": [],
+  "new": [],
+  "removed": [],
+  "changed": [],
+  "counts": {
+    "total": 58,
+    "tiers": {
+      "apply-now-first-class": 22,
+      "apply-now-still-new": 36,
+      "watchlist-preaccreditation": 0
+    },
+    "visa": {
+      "Unknown": 25,
+      "J-1": 23,
+      "J-1+H-1B": 3,
+      "None": 7
+    },
+    "new": 0,
+    "removed": 0,
+    "changed": 0
+  },
+  "roster_size": 716,
+  "first_run": false
+}
