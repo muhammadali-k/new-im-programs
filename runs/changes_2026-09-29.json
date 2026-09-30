@@ -1,6 +1,6 @@
 {
   "run_date": "2026-09-29",
-  "previous_run_date": "2026-09-28",
+  "previous_run_date": "2026-09-08",
   "new_cutoff": "2024-09-29",
   "first_class_cutoff": "2025-09-29",
   "academic_years": [
@@ -10,9 +10,375 @@
     "2027-2028"
   ],
   "fetch_errors": [],
-  "new": [],
+  "new": [
+    {
+      "org_code": "1400500025",
+      "program_name": "Residents Medical Center for GME Excellence Program",
+      "state": "California",
+      "city": "Culver City",
+      "program_director": "Keyvan Ravakhah, MD, MBA",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "IMResidency@schcc.rmgme.org",
+      "phone": "(614) 663-4637",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500025",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1400500026",
+      "program_name": "Mission Community Hospital Program",
+      "state": "California",
+      "city": "Panorama City",
+      "program_director": "Glenn A. Marshak, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "gmarshak@bespokehc.com",
+      "phone": "(310) 497-2624",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500026",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1400500027",
+      "program_name": "NorthBay Health Program",
+      "state": "California",
+      "city": "Fairfield",
+      "program_director": "Shirisha A. Avadhanula, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "",
+      "phone": "(559) 537-0208",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400500027",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1400900001",
+      "program_name": "Beebe Healthcare Program",
+      "state": "Delaware",
+      "city": "Lewes",
+      "program_director": "Katie Johnson, DO",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "imresidency@beebehealthcare.org",
+      "phone": "(302) 645-3100",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1400900001",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1401100022",
+      "program_name": "Lakewood Ranch Medical Center Program",
+      "state": "Florida",
+      "city": "Bradenton",
+      "program_director": "ZEYAR THET, MBBS, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "nannette.catterton@lwrmc.com",
+      "phone": "(491) 782-2127",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401100022",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1401200011",
+      "program_name": "Piedmont Healthcare Program",
+      "state": "Georgia",
+      "city": "Atlanta",
+      "program_director": "Karen Law, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "PHCGME@piedmont.org",
+      "phone": "(706) 475-7869",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401200011",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1401600004",
+      "program_name": "University of Chicago Medical Center/Ingalls Memorial Hospital Program",
+      "state": "Illinois",
+      "city": "Harvey",
+      "program_director": "John D. Yoon, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "ucm-ingallsIMR@uchicago.edu",
+      "phone": "(708) 333-2300",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1401600004",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1402300002",
+      "program_name": "Meritus Medical Center Program",
+      "state": "Maryland",
+      "city": "Hagerstown",
+      "program_director": "Oksana O. Karpov, DO",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "kayla.hinson@meritushealth.com",
+      "phone": "(301) 665-4751",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1402300002",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1403300005",
+      "program_name": "Cooper Medical School of Rowan University/Cooper University Hospital Program",
+      "state": "New Jersey",
+      "city": "Cape May Court House",
+      "program_director": "Ashok R. Mandala, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "CUHCapeIMProgram@Cooperhealth.edu",
+      "phone": "(856) 342-2922",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403300005",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1403500009",
+      "program_name": "NYC Health and Hospitals Kings County Hospital Program",
+      "state": "New York",
+      "city": "Brooklyn",
+      "program_director": "Melissa Lee, MD, MPH",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "leem19@nychhc.org",
+      "phone": "(718) 245-3408",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1403500009",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1404100009",
+      "program_name": "Lake Erie College of Osteopathic Medicine Program",
+      "state": "Pennsylvania",
+      "city": "Erie",
+      "program_director": "Eric J. Milie, DO, MEd",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "dnick@lecom.edu",
+      "phone": "(814) 864-4031",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404100009",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1404500009",
+      "program_name": "Spartanburg Medical Center Program",
+      "state": "South Carolina",
+      "city": "Spartanburg",
+      "program_director": "Brandon S. Davis, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "bsdavis@medicalgroupofthecarolinas.com",
+      "phone": "(864) 560-6846",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404500009",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1404500010",
+      "program_name": "Medical University of South Carolina Regional Network (Columbia) Program",
+      "state": "South Carolina",
+      "city": "Columbia",
+      "program_director": "Paul W. Watanakunakorn, MD, BA",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "watanaku@musc.edu",
+      "phone": "(330) 716-1865",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1404500010",
+      "visa_sponsorship": "Unknown"
+    },
+    {
+      "org_code": "1405500002",
+      "program_name": "Thomas Memorial Hospital Program",
+      "state": "West Virginia",
+      "city": "South Charleston",
+      "program_director": "Andrea M. Lauffer, MD",
+      "accreditation_status": "Initial Accreditation",
+      "original_accreditation_date": "2026-09-18",
+      "tier": "apply-now-first-class",
+      "coordinator_email": "morgan.hart1@wvumedicine.org",
+      "phone": "(304) 691-1371",
+      "detail_url": "https://apps.acgme.org/ads/Public/Programs/Detail?orgCode=1405500002",
+      "visa_sponsorship": "Unknown"
+    }
+  ],
   "removed": [],
-  "changed": [],
+  "changed": [
+    {
+      "org_code": "1402800003",
+      "program_name": "HCA Healthcare Kansas City/Centerpoint Medical Center Program",
+      "state": "Missouri",
+      "diffs": [
+        {
+          "field": "program_director",
+          "from": "Dubert M. Guerrero, MD",
+          "to": "Shivani Scharf, DO"
+        }
+      ]
+    },
+    {
+      "org_code": "1400500023",
+      "program_name": "University of California (Irvine)/Irvine Medical Center Program",
+      "state": "California",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401100019",
+      "program_name": "Health Education Services/Physicians Regional Medical Center - Pine Ridge Program",
+      "state": "Florida",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401100021",
+      "program_name": "University of Central Florida/HCA Florida Healthcare Program",
+      "state": "Florida",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401200007",
+      "program_name": "Coffee Regional Medical Center Program",
+      "state": "Georgia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1401200008",
+      "program_name": "Tift Regional Health System Program",
+      "state": "Georgia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1403400003",
+      "program_name": "New Mexico Primary Care Training Consortium Program",
+      "state": "New Mexico",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1404500008",
+      "program_name": "Lexington Health Program",
+      "state": "South Carolina",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1404700005",
+      "program_name": "University of Tennessee College of Medicine/Maury Regional Medical Center Program",
+      "state": "Tennessee",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1404700006",
+      "program_name": "Vanderbilt University Medical Center (Lebanon) Program",
+      "state": "Tennessee",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405100004",
+      "program_name": "Sentara Health Program",
+      "state": "Virginia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405100007",
+      "program_name": "Valley Health System Program",
+      "state": "Virginia",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405400002",
+      "program_name": "MultiCare Health System Program",
+      "state": "Washington",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    },
+    {
+      "org_code": "1405600003",
+      "program_name": "Medical College of Wisconsin Affiliated Hospitals, Inc/ThedaCare Regional Medical Center - Neenah Program",
+      "state": "Wisconsin",
+      "diffs": [
+        {
+          "field": "tier",
+          "from": "apply-now-first-class",
+          "to": "apply-now-still-new"
+        }
+      ]
+    }
+  ],
   "counts": {
     "total": 58,
     "tiers": {
@@ -26,9 +392,9 @@
       "J-1+H-1B": 3,
       "None": 7
     },
-    "new": 0,
+    "new": 14,
     "removed": 0,
-    "changed": 0
+    "changed": 14
   },
   "roster_size": 716,
   "first_run": false
