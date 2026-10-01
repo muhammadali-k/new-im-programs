@@ -1,0 +1,157 @@
+{
+  "run_date": "2026-10-01",
+  "previous_run_date": "2026-09-30",
+  "new_cutoff": "2024-10-01",
+  "first_class_cutoff": "2025-10-01",
+  "academic_years": [
+    "2024-2025",
+    "2025-2026",
+    "2026-2027",
+    "2027-2028"
+  ],
+  "fetch_errors": [],
+  "new": [],
+  "removed": [
+    {
+      "org_code": "1404500009",
+      "program_name": "Spartanburg Medical Center Program",
+      "state": "South Carolina",
+      "original_accreditation_date": "2026-09-18",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1403500009",
+      "program_name": "NYC Health and Hospitals Kings County Hospital Program",
+      "state": "New York",
+      "original_accreditation_date": "2026-09-18",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1400500026",
+      "program_name": "Mission Community Hospital Program",
+      "state": "California",
+      "original_accreditation_date": "2026-09-18",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1402300002",
+      "program_name": "Meritus Medical Center Program",
+      "state": "Maryland",
+      "original_accreditation_date": "2026-09-18",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1404500010",
+      "program_name": "Medical University of South Carolina Regional Network (Columbia) Program",
+      "state": "South Carolina",
+      "original_accreditation_date": "2026-09-18",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1401100022",
+      "program_name": "Lakewood Ranch Medical Center Program",
+      "state": "Florida",
+      "original_accreditation_date": "2026-09-18",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1403300005",
+      "program_name": "Cooper Medical School of Rowan University/Cooper University Hospital Program",
+      "state": "New Jersey",
+      "original_accreditation_date": "2026-09-18",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1402800005",
+      "program_name": "Mercy Hospital Springfield Program",
+      "state": "Missouri",
+      "original_accreditation_date": "2026-04-17",
+      "tier_was": "apply-now-first-class",
+      "reason": "aged out of the 24-month window"
+    },
+    {
+      "org_code": "1404700005",
+      "program_name": "University of Tennessee College of Medicine/Maury Regional Medical Center Program",
+      "state": "Tennessee",
+      "original_accreditation_date": "2025-09-12",
+      "tier_was": "apply-now-still-new",
+      "reason": "aged out of the 24-month window"
+    }
+  ],
+  "changed": [
+    {
+      "org_code": "1400500021",
+      "program_name": "Prime West Consortium/St. Francis Medical Center Program MPH",
+      "state": "California",
+      "diffs": [
+        {
+          "field": "program_director",
+          "from": "Anantjit Singh, MD, MPH",
+          "to": "Anantjit Singh, MD,"
+        }
+      ]
+    },
+    {
+      "org_code": "1402100004",
+      "program_name": "Ochsner Lafayette General Medical Ziad Center Program MPH,",
+      "state": "Louisiana",
+      "diffs": [
+        {
+          "field": "program_director",
+          "from": "Ziad Ashkar, MD, MPH, ScD",
+          "to": "Ashkar, MD, ScD"
+        }
+      ]
+    },
+    {
+      "org_code": "1403300004",
+      "program_name": "New York Medical College/Hudson Rehan Regional Health - Bayonne University Hospital Program",
+      "state": "New Jersey",
+      "diffs": [
+        {
+          "field": "program_director",
+          "from": "Rehan Shah, MD",
+          "to": "Shah, MD"
+        }
+      ]
+    },
+    {
+      "org_code": "1403400003",
+      "program_name": "New Mexico Primary Care Training Erin Consortium Program",
+      "state": "New Mexico",
+      "diffs": [
+        {
+          "field": "program_director",
+          "from": "Erin K. Philpott, DO",
+          "to": "K. Philpott, DO"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "total": 49,
+    "tiers": {
+      "apply-now-first-class": 14,
+      "apply-now-still-new": 35,
+      "watchlist-preaccreditation": 0
+    },
+    "visa": {
+      "Unknown": 16,
+      "J-1": 23,
+      "J-1+H-1B": 3,
+      "None": 7
+    },
+    "new": 0,
+    "removed": 9,
+    "changed": 4
+  },
+  "roster_size": 716,
+  "first_run": false
+}

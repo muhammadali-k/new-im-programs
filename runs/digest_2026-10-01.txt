@@ -1,0 +1,24 @@
+Newly accredited Internal Medicine programs — 2026-10-01
+Source: ACGME ADS (AYs 2024-2025, 2025-2026, 2026-2027, 2027-2028). Previous run: 2026-09-30.
+Live tracker: https://muhammadali-k.github.io/new-im-programs/
+
+No new IM programs since the last check.
+
+4 changed:
+- Prime West Consortium/St. Francis Medical Center Program MPH (California): program_director Anantjit Singh, MD, MPH -> Anantjit Singh, MD,
+- Ochsner Lafayette General Medical Ziad Center Program MPH, (Louisiana): program_director Ziad Ashkar, MD, MPH, ScD -> Ashkar, MD, ScD
+- New York Medical College/Hudson Rehan Regional Health - Bayonne University Hospital Program (New Jersey): program_director Rehan Shah, MD -> Shah, MD
+- New Mexico Primary Care Training Erin Consortium Program (New Mexico): program_director Erin K. Philpott, DO -> K. Philpott, DO
+
+9 dropped:
+- Spartanburg Medical Center Program (South Carolina) — aged out of the 24-month window
+- NYC Health and Hospitals Kings County Hospital Program (New York) — aged out of the 24-month window
+- Mission Community Hospital Program (California) — aged out of the 24-month window
+- Meritus Medical Center Program (Maryland) — aged out of the 24-month window
+- Medical University of South Carolina Regional Network (Columbia) Program (South Carolina) — aged out of the 24-month window
+- Lakewood Ranch Medical Center Program (Florida) — aged out of the 24-month window
+- Cooper Medical School of Rowan University/Cooper University Hospital Program (New Jersey) — aged out of the 24-month window
+- Mercy Hospital Springfield Program (Missouri) — aged out of the 24-month window
+- University of Tennessee College of Medicine/Maury Regional Medical Center Program (Tennessee) — aged out of the 24-month window
+
+Tracked: 49 | first class 14 | still new 35 | watchlist 0 | confirmed visa sponsors 26 | unknown 16 | none 7
